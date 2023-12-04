@@ -15,11 +15,17 @@
   - [x] Code
   - [ ] Test
 - raster
-  - [ ] Code
+  - [x] Code
   - [ ] Test
 - gnatfinder
-  - [ ] Code
+  - [x] Code
+    - Note: There are several things I need to debug here, from the top down.
   - [ ] Test
 - compute_activity_threads
-  - [ ] Code
+  - [x] Code
   - [ ] Test
+    - *** Look at the change ms to ticks thing ***
+    - [x] SpikeRaster
+    - [x] Network
+    - [ ] compute_activity_threads
+        - It appears like this is working but I think I need to test this with larger network data to truly verifying everything is working properly. It seems to be good though!
